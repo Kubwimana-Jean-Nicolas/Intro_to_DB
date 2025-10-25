@@ -12,7 +12,7 @@ CREATE TABLE Books (
     title VARCHAR(200) NOT NULL,
     author_id INT NOT NULL,
     price DECIMAL(10,2) NOT NULL,
-    stock INT DEFAULT 0,
+    stock INT NOT NULL,
     PRIMARY KEY (book_id),
     FOREIGN KEY (author_id) REFERENCES Authors(author_id)
 );
