@@ -1,4 +1,2 @@
--- task_4.sql
--- Print the full description of the table books without using DESCRIBE or EXPLAIN
-
-SHOW CREATE TABLE books;
+USE alx_book_store;
+SHOW CREATE TABLE Books;
